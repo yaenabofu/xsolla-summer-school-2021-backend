@@ -19,9 +19,9 @@
 
 # Запуск решения
 I Перед запуском решения убедитесь, что у вас установлены :
-1) .NET Core версии 3.1
+1) .NET Core версии 3.1 или выше
 2) SQL Server
-Nuget пакеты :
+* Nuget пакеты :
 3) Microsoft.EntityFrameworkCore
 4) Microsoft.EntityFrameworkCore.SqlServer
 5) Microsoft.EntityFrameworkCore.Tools
