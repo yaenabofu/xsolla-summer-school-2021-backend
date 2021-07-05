@@ -24,7 +24,3 @@ I Перед запуском решения требуется загрузит
 3) Microsoft.EntityFrameworkCore.Tools
 4) Swashbuckle.AspNetCore
 5) Swashbuckle.AspNetCore.Swagger
-
-II Запустите консоль диспетчера Nuget пакетов (Средства -> Диспетчер пакетов Nuget) и выполните следующие команду:
-1) Add-Migration Initial
-2) Update-Database
