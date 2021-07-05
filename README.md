@@ -18,13 +18,13 @@
 7) api/Product/Delete/{Id} - Удаляет указанную по Id запись из базы данных 
 
 # Запуск решения
-1) Перед запуском решения требуется загрузить 5 Nuget пакетов :
-1.1) Microsoft.EntityFrameworkCore
-1.2) Microsoft.EntityFrameworkCore.SqlServer
-1.3) Microsoft.EntityFrameworkCore.Tools
-1.4) Swashbuckle.AspNetCore
-1.5) Swashbuckle.AspNetCore.Swagger
+Перед запуском решения требуется загрузить 5 Nuget пакетов :
+1) Microsoft.EntityFrameworkCore
+2) Microsoft.EntityFrameworkCore.SqlServer
+3) Microsoft.EntityFrameworkCore.Tools
+4) Swashbuckle.AspNetCore
+5) Swashbuckle.AspNetCore.Swagger
 
-2) Запустите консоль диспетчера Nuget пакетов (Средства -> Диспетчер пакетов Nuget) и выполните следующие команду:
-2.1) Add-Migration Initial
-2.2) Update-Database
+Запустите консоль диспетчера Nuget пакетов (Средства -> Диспетчер пакетов Nuget) и выполните следующие команду:
+1) Add-Migration Initial
+2) Update-Database
