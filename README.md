@@ -7,8 +7,8 @@
 * База данных создана при помощи технологии Entity Framework
 
 # Описание api
-Структура запроса "https://localhost:{PORT}/api/Product/{OPERATION}"
-Были реализованы следующие запросы : 
+* Структура запроса "https://localhost:{PORT}/api/Product/{OPERATION}"
+* Были реализованы следующие запросы : 
 1) api/Product/Get - Возвращает все записи из базы данных
 2) api/Product/Get/{Id} - Возвращает указанную по Id запись из базы данных
 3) api/Product/Get/ByPrice - Возвращает отсортированный по цене список записей из базы данных
@@ -18,16 +18,16 @@
 7) api/Product/Delete/{Id} - Удаляет указанную по Id запись из базы данных 
 
 # Запуск решения
-I Перед запуском решения убедитесь, что у вас установлены :
+I *Перед запуском решения убедитесь, что у вас установлены :
 1) .NET Core версии 3.1 или выше
 2) SQL Server
-* Nuget пакеты :
+* *Nuget пакеты :
 3) Microsoft.EntityFrameworkCore
 4) Microsoft.EntityFrameworkCore.SqlServer
 5) Microsoft.EntityFrameworkCore.Tools
 6) Swashbuckle.AspNetCore
 7) Swashbuckle.AspNetCore.Swagger
 
-II Запустите консоль диспетчера Nuget пакетов (Средства -> Диспетчер пакетов Nuget) и выполните следующие команды:
+II *Запустите консоль диспетчера Nuget пакетов (Средства -> Диспетчер пакетов Nuget) и выполните следующие команды:
 1) Add-Migration Initial
 2) Update-Database
