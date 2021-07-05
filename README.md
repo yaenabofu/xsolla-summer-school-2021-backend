@@ -28,6 +28,6 @@ I *Перед запуском решения убедитесь, что у ва
 6) Swashbuckle.AspNetCore
 7) Swashbuckle.AspNetCore.Swagger
 
-II *Запустите консоль диспетчера Nuget пакетов (Средства -> Диспетчер пакетов Nuget) и выполните следующие команды:
+II *Запустите консоль диспетчера Nuget пакетов (Средства -> Диспетчер пакетов Nuget) и выполните следующие команды:*
 1) Add-Migration Initial
 2) Update-Database
