@@ -9,7 +9,7 @@ using RESTfulApi.Models;
 namespace RESTfulApi.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20210706115249_Initial")]
+    [Migration("20210706143015_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
