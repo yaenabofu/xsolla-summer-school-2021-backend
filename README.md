@@ -4,7 +4,7 @@
 
 # Реализация 
 * Проект выполнен на я/п C# и ASP.NET Core
-* Решение имеет архитектуру шаблона "Хранилище", где контроллеры взаимодействуют с базой данных не напрямую, а через класс-репозиторий ProductOperations, в котором заранее были реализованы все методы интерфейса IProduct. 
+* Решение имеет архитектуру шаблона "Хранилище", где контроллер ProductController взаимодействует с базой данных не напрямую, а через класс-репозиторий ProductOperations, в котором заранее были реализованы все методы интерфейса IProduct. 
 * База данных создана при помощи технологии Entity Framework
 
 # Описание api
@@ -19,16 +19,4 @@
 7) api/Product/Delete/{Id} - Удаляет указанную по Id запись из базы данных 
 
 # Запуск решения
-I *Перед запуском решения убедитесь, что у вас установлены :*
-1) .NET Core версии 3.1 или выше
-2) SQL Server
-* *Nuget пакеты :*
-3) Microsoft.EntityFrameworkCore
-4) Microsoft.EntityFrameworkCore.SqlServer
-5) Microsoft.EntityFrameworkCore.Tools
-6) Swashbuckle.AspNetCore
-7) Swashbuckle.AspNetCore.Swagger
-
-II *Запустите консоль диспетчера Nuget пакетов (Средства -> Диспетчер пакетов Nuget) и выполните следующие команды:*
-1) Add-Migration Initial
-2) Update-Database
+*Перед запуском решения убедитесь, что у вас установлены .NET Core (версии 5.0 или выше) и SQL Server*
