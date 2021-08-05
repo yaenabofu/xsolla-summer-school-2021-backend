@@ -1,5 +1,5 @@
 # Описание проекта
-* Тестовое задание для Xsolla School 2021 по направлению Backend 
+* Тестовое задание для [Xsolla School 2021 по направлению Backend] (https://github.com/xsolla/xsolla-school-backend-2021) 
 * Автор: Бажутин Антон
 
 # Реализация 
